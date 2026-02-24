@@ -1,0 +1,4 @@
+#pragma once
+#define DCF77_PROJECT_NAME "@PROJECT_NAME@"
+#define DCF77_PROJECT_VERSION "@PROJECT_VERSION@"
+#define DCF77_PROJECT_AUTHOR "Alexandros Paterakis"

@@ -1,0 +1,25 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2712";
+
+    fragment@0 {
+        target = <&rp1_gpio>;
+        __overlay__ {
+            pinctrl-names = "default";
+            pinctrl-0 = <&gpio18_drive8>;
+
+            gpio18_drive8: gpio18-drive8-state {
+                pins = "gpio18";
+                function = "gpio";
+                drive-strength = <8>; /* mA: allowed {2,4,8,12} */
+                slew-rate = <0>;      /* 0=slow, 1=fast */
+                input-enable;
+                input-schmitt-enable;
+                output-enable;
+                bias-disable;
+            };
+        };
+    };
+};
