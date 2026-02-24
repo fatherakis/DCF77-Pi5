@@ -1,7 +1,7 @@
 # DCF77-Pi5
 
-![GitHub commits](https://img.shields.io/github/commits-since/fatherakis/dcf77-pi5/latest)
-![GitHub license](https://img.shields.io/github/license/fatherakis/dcf77-pi5)
+![GitHub commits](https://img.shields.io/github/commits-since/fatherakis/DCF77-Pi5/latest)
+![GitHub license](https://img.shields.io/github/license/fatherakis/DCF77-Pi5)
 ![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi%205-green)
 ![Language](https://img.shields.io/badge/language-C-blue)
 ![Build](https://img.shields.io/badge/build-CMake-brightgreen)
