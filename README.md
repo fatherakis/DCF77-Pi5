@@ -17,7 +17,7 @@ Encoding logic is inspired by [hzeller/txtempus](https://github.com/hzeller/txte
 This project uses the RP1 PIO peripheral to generate a highly accurate carrier signal.
 
 > [!Caution]
-> Check local laws & regulations in regards to restrictions on ratio transmissions before running this program
+> Check local laws & regulations in regards to restrictions on radio transmissions before running this program
 
 
 ### Raspberry Pi 5
@@ -134,7 +134,7 @@ Options:
 ## Increase Hardware Power
 
 > [!WARNING]
-> Legal note: Check local laws & regulations in regards to restrictions on ratio transmissions before any attempt increasing power on your transmitter.
+> Legal note: Check local laws & regulations in regards to restrictions on radio transmissions before any attempt increasing power on your transmitter.
 
 If you want to further improve reading distance and power here are a few options:
 
